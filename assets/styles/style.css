@@ -1,0 +1,648 @@
+/* 
+Eric Meyer CSS Reset / Normalize -Start
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 
+Eric Meyer CSS Reset / Normalize - End
+*/
+
+/* 
+Website basic layout/structure - Start
+*/
+
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+main{
+    flex-grow: 1;
+    background-color: rgb(159, 221, 244);
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    line-height: 4vh;
+}
+table{
+    border: 2px solid black;
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+}
+th{
+    background-color: yellow;
+    border: 1px solid black;
+    line-height: 40px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+tr:nth-child(odd) {
+    background-color: #fa6f6f;
+    
+}
+#wrap-body{
+    min-width: 320px;
+    max-width: 1920px;
+    min-height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/* 
+Website basic layout/structure - End
+*/
+
+/* 
+Header - Start
+*/
+
+header{
+    background-color: red;
+    border-bottom: 1px solid black;
+}
+header div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header img{
+    width: 130px;
+    height: 130px;
+    border: solid 2px black;
+    border-radius: 100%;
+}
+header h1{
+    padding: 12px;
+    font-size: 15vw;
+    font-family: "Passion One";
+}
+header ul{
+    display: flex;
+    flex-direction: column;
+}
+header a{
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 8px 0 8px 0;
+    border-top: 1px solid black;
+    text-decoration: none;
+    font-family: "Passion One";
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 5%;
+}
+header nav{
+    display: none;
+}
+.show {
+	display: block;
+}
+.btn-menu{
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    background-image: url("../images/bars-solid.svg");
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+header a:hover,header a:focus,header a:active{
+    background-color: yellow;
+    color: black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#home-nav{
+    background-image: url("../images/house-solid.svg");
+}
+#dogs-nav{
+    background-image: url("../images/dog-solid.svg");
+}
+#cats-nav{
+    background-image: url("../images/cat-solid.svg");
+}
+#services-nav{
+    background-image: url("../images/hand-holding-medical-solid.svg");
+}
+#about-nav{
+    background-image: url("../images/address-card-solid.svg");
+}
+#partners-nav{
+    background-image: url("../images/handshake-solid.svg");
+}
+#lorem-nav{
+    background-image: url("../images/language-solid.svg");
+}
+
+/* 
+Header - End
+*/
+
+/* 
+Main of Home - Start
+*/
+
+#home-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: center;
+}
+#home-article{
+    padding: 3%;
+    background-color: bisque;
+    max-width: fit-content;
+    border: 2px solid black;
+    box-shadow: 0px 0px 12px 2px rgb(255, 255, 255);
+}
+#home-article p{
+    font-family: "Outfit";
+    line-height: 30px;
+    padding-bottom: 20px;
+    max-width: 600px;
+    text-align: justify;
+}
+#home-section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: calc(600px + 6%);
+}
+#home-section img{
+    width: 100%;
+    border: 2px solid black;
+    box-shadow: 0px 0px 12px 2px rgb(255, 255, 255);     
+}
+
+/* 
+Main of Home - End
+*/
+
+/* 
+Main of Products (Dogs and Cats Pages) - Start
+*/
+
+main>.products-div>h2{
+    font-size: 3rem;
+    line-height: 3rem;
+    font-family: "Passion One";
+}
+.product-section{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid black;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: "Russo One";
+    background-color: white;    
+}
+.product-price{
+    color: green;
+}
+.btn-buy, .btn-add{
+    width: 100px;
+    height: 30px;
+    font-family: "Outfit";
+    font-size: 15px;
+    font-weight: 400;
+}
+.btn-buy:hover, .btn-buy:focus, .btn-buy:active{
+    background-color: rgb(51, 241, 51);
+}
+.btn-add:hover, .btn-add:focus, .btn-add:active{
+    background-color: rgb(251, 255, 0);
+}
+.product-img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.products-article{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 1vw;
+}
+.products-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+/* 
+Main of Products (Dogs and Cats Pages) - End
+*/
+
+/* 
+Main of Services - Start
+*/
+
+.services-article{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    text-align: justify;
+}
+.services-section{
+    background-color: bisque;
+    padding: 3%;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    box-shadow: 0px 0px 12px 2px rgb(255, 255, 255);
+}
+.services-section h2{
+    font-family: "Outfit";
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.services-section p{
+    font-family: "Outfit";
+    line-height: 25px;
+}
+#services-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 
+Main of Services - End
+*/
+
+/* 
+Main of About Us - Start
+*/
+
+.about-article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.about-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 5px;
+    background-color: bisque;
+    padding: 3%;
+    border: 2px solid black;
+    box-shadow: 0px 0px 12px 2px rgb(255, 255, 255);
+}
+.about-section h2{
+    font-family: "Outfit";
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 40px;
+    align-self: center;
+}
+.about-section h3{
+    font-family: "Outfit";
+    font-weight: 900;
+}
+.about-section p{
+    font-family: "Outfit";
+    line-height: 25px;
+}
+.vet-img{
+    width: 150px;
+    height: 150px;
+    border: solid 2px red;
+    border-radius: 100%;
+    align-self: center;
+}
+
+/* 
+Main of About Us - End
+*/
+
+/* 
+Main of Partners - Start
+*/
+#partners-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.partners-div{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    padding: 3%;
+    font-family: "Outfit";
+    line-height: 30px;
+    gap: 20px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 12px 2px rgb(255, 255, 255);
+}
+.partners-div h2{
+    font-size: 1.6rem;
+}
+.partners-div h3{
+    font-size: 1.4rem;
+    background-color:whitesmoke;
+    border: 2px solid red;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: fit-content;
+}
+.partner-img{
+    max-width: 70%;
+    align-self: center;
+    margin-top: 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.partners-div li{
+    list-style: square;
+}
+
+/* 
+Main of Partners - End
+*/
+
+/* 
+Main of Lorem - Start
+*/
+#lorem-main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.lorem-page{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    font-family: "Outfit";
+    line-height: 25px;
+    background-color: bisque;
+    padding: 3%;
+    border: 2px solid black;
+    max-width: 800px;
+    box-shadow: 0px 0px 12px 2px rgb(255, 255, 255);    
+}
+.lorem-img{
+    width: 200px;
+    align-self: center;
+    border: 2px solid white;
+}
+.lorem-page code{
+    background-color: rgb(255, 255, 255);
+}
+.lorem-page ol{
+    
+    list-style: decimal-leading-zero;
+    padding-left: 10%;
+}
+.lorem-page blockquote{
+    align-self: center;
+}
+.lorem-page h2{
+    font-size: 1.5rem;
+}
+.lorem-page a{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Passion One";
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.lorem-page a:hover, .lorem-page a:focus, .lorem-page a:active{
+    background-color: yellow;
+    color: black;
+    
+}
+/* 
+Main of Lorem - End
+*/
+
+/* 
+Footer - Start
+*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0 10px 0;
+    background-color: red;
+    font-family: "Passion One";
+    color: white;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;    
+    gap: 8vw;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 22px;
+    padding-right: 8px;
+    display: inline-block;
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 5%;
+}
+footer a:hover,footer a:focus,footer a:active{
+    background-color: yellow;
+    color: black;    
+}
+#google-footer{
+    background-image: url("../images/google.svg");
+}
+#facebook-footer{
+    background-image: url("../images/facebook.svg");
+}
+#instagram-footer{
+    background-image: url("../images/instagram.svg");
+}
+/* 
+Footer - End
+*/
+
+/* 
+Form - Start
+*/
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+    font-family: "Russo One";
+}
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #4cae4c;
+}
+
+/* 
+Form - End
+*/
+
+@media (min-width: 700px){
+    .btn-menu{
+        display: none;
+    }
+    header nav{
+        display: block;
+
+    }
+    header ul{
+        flex-direction: row;        
+        justify-content: space-around;
+    }
+    header li{
+        flex: 1;
+    }
+    header div{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    header h1{
+        font-size: 110px;
+    }
+    footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media(min-width: 900px){
+    #partners-main{
+        flex-direction: row;
+    }
+    #first-partners{
+        width: 600%;
+    }
+}
+
+@media (min-width: 1000px){
+    .services-article{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #home-div{
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+    #home-section{
+        width: 38%;
+        justify-content: space-between;
+    }
+
+
+}
