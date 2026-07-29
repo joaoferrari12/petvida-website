@@ -188,9 +188,6 @@ header a:hover,header a:focus,header a:active{
 #partners-nav{
     background-image: url("../images/handshake-solid.svg");
 }
-#lorem-nav{
-    background-image: url("../images/language-solid.svg");
-}
 
 /* 
 Header - End
@@ -433,64 +430,6 @@ Main of Partners - Start
 Main of Partners - End
 */
 
-/* 
-Main of Lorem - Start
-*/
-#lorem-main{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-.lorem-page{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 20px;
-    font-family: "Outfit";
-    line-height: 25px;
-    background-color: bisque;
-    padding: 3%;
-    border: 2px solid black;
-    max-width: 800px;
-    box-shadow: 0px 0px 12px 2px rgb(255, 255, 255);    
-}
-.lorem-img{
-    width: 200px;
-    align-self: center;
-    border: 2px solid white;
-}
-.lorem-page code{
-    background-color: rgb(255, 255, 255);
-}
-.lorem-page ol{
-    
-    list-style: decimal-leading-zero;
-    padding-left: 10%;
-}
-.lorem-page blockquote{
-    align-self: center;
-}
-.lorem-page h2{
-    font-size: 1.5rem;
-}
-.lorem-page a{
-    color: white;
-    background-color: red;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: "Passion One";
-    padding-left: 12px;
-    padding-right: 12px;
-}
-.lorem-page a:hover, .lorem-page a:focus, .lorem-page a:active{
-    background-color: yellow;
-    color: black;
-    
-}
-/* 
-Main of Lorem - End
-*/
 
 /* 
 Footer - Start
