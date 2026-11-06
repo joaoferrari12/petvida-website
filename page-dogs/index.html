@@ -1,144 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Vida - Dogs</title>
-    <link rel="stylesheet" href="../assets/styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
-    <script src="../assets/scripts/menu.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop for dogs · Pet Vida</title>
+  <meta name="description" content="Dog food, chews and toys recommended by Pet Vida's veterinarians.">
+  <link rel="canonical" href="https://joaoferrari12.github.io/petvida-website/page-dogs/">
+  <meta name="theme-color" content="#1e6b52">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shop for dogs · Pet Vida">
+  <meta property="og:description" content="Dog food, chews and toys recommended by Pet Vida's veterinarians.">
+  <meta property="og:image" content="https://joaoferrari12.github.io/petvida-website/assets/images/about1.webp">
+  <meta property="og:url" content="https://joaoferrari12.github.io/petvida-website/page-dogs/">
+  <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles/style.css">
 </head>
 <body>
-    <div id="wrap-body">
-        <header>
-            <div id="header-top">
-                <img src="../assets/images/sampledog.webp" alt="PetVida Company Logo">
-                <h1>PetVida</h1>
-                <button class="btn-menu"></button>
-            </div>
-            <nav id="nav-header">
-                <ul id="ul-header">
-                    <li><a id="home-nav" href="../index.html">Home</a></li>
-                    <li><a id="dogs-nav" href="index.html">Dogs</a></li>
-                    <li><a id="cats-nav" href="../page-cats/index.html">Cats</a></li>
-                    <li><a id="services-nav" href="../page-services/index.html">Services</a></li>
-                    <li><a id="about-nav" href="../page-about/index.html">About Us</a></li>
-                    <li><a id="partners-nav" href="../page-partners/index.html">Partners</a></li>
-</ul>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html" aria-label="Pet Vida home"><span class="brand-mark"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="#fff"><circle cx="5.5" cy="9" r="2.2"/><circle cx="9.5" cy="5" r="2.2"/><circle cx="14.5" cy="5" r="2.2"/><circle cx="18.5" cy="9" r="2.2"/><path d="M12 10c-3 0-6.5 3.2-6.5 6.3 0 1.9 1.4 3.2 3.2 3.2 1.3 0 2.1-.6 3.3-.6s2 .6 3.3.6c1.8 0 3.2-1.3 3.2-3.2C18.5 13.2 15 10 12 10z"/></svg></span>Pet Vida</a>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <ul><li><a href="../page-services/">Services</a></li><li><a href="../page-about/">About</a></li><li><a href="../page-dogs/" aria-current="page">Dogs</a></li><li><a href="../page-cats/">Cats</a></li><li><a href="../page-partners/">Plans</a></li><li><a href="../page-contact/">Contact</a></li></ul>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-primary nav-cta" href="../page-contact/">Book a visit</a>
+      <button class="btn btn-ghost menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+<main id="main">
 
-            </nav>
-
-        </header>
-        <main>
-            <div class="products-div">
-                <h2>DOG FOOD</h2>
-                <article class="products-article">
-                    <section class="product-section">
-                        <img src="../assets/images/dog7.webp" class="product-img" alt="">
-                        <h3>ABC Premium 10kg</h3>
-                        <h4 class="product-price">$59,99</h4>
-                        <button class="btn-buy">Buy Now</button>
-                        <button class="btn-add">Add to Cart</button>
-                    </section>
-                    <section class="product-section">
-                        <img src="../assets/images/dog2.webp" class="product-img" alt="">
-                        <h3>DEF Premium 10kg</h3>
-                        <h4 class="product-price">$39,99</h4>
-                        <button class="btn-buy">Buy Now</button>
-                        <button class="btn-add">Add to Cart</button>
-                    </section>
-                    <section class="product-section">
-                        <img src="../assets/images/dog4.webp" class="product-img" alt="">
-                        <h3>GHI Premium 10kg</h3>
-                        <h4 class="product-price">$139,99</h4>
-                        <button class="btn-buy">Buy Now</button>
-                        <button class="btn-add">Add to Cart</button>
-                    </section>
-                    <section class="product-section">
-                        <img src="../assets/images/dog1.webp" class="product-img" alt="">
-                        <h3>JKL Premium 10kg</h3>
-                        <h4 class="product-price">$319,99</h4>
-                        <button class="btn-buy">Buy Now</button>
-                        <button class="btn-add">Add to Cart</button>
-                    </section>
-                    <section class="product-section">
-                        <img src="../assets/images/dog5.webp" class="product-img" alt="">
-                        <h3>MNO Premium 10kg</h3>
-                        <h4 class="product-price">$149,99</h4>
-                        <button class="btn-buy">Buy Now</button>
-                        <button class="btn-add">Add to Cart</button>
-                    </section>
-                    <section class="product-section">
-                        <img src="../assets/images/dog6.webp" class="product-img" alt="">
-                        <h3>PQR Premium 10kg</h3>
-                        <h4 class="product-price">$39,99</h4>
-                        <button class="btn-buy">Buy Now</button>
-                        <button class="btn-add">Add to Cart</button>
-                    </section>
-                </article>
-                <h2>TOYS</h2>
-                <article class="products-article">
-                    <section class="product-section">
-                        <img src="../assets/images/toy4.webp" class="product-img" alt="">
-                        <h3>ABC Premium</h3>
-                        <h4 class="product-price">$19,99</h4>
-                        <button class="btn-buy">Buy Now</button>
-                        <button class="btn-add">Add to Cart</button>
-                    </section>
-                    <section class="product-section">
-                        <img src="../assets/images/toy1.webp" class="product-img" alt="">
-                        <h3>DEF Premium</h3>
-                        <h4 class="product-price">$29,99</h4>
-                        <button class="btn-buy">Buy Now</button>
-                        <button class="btn-add">Add to Cart</button>
-                    </section>
-                    <section class="product-section">
-                        <img src="../assets/images/toy2.webp" class="product-img" alt="">
-                        <h3>GHI</h3>
-                        <h4 class="product-price">$29,99</h4>
-                        <button class="btn-buy">Buy Now</button>
-                        <button class="btn-add">Add to Cart</button>
-                    </section>
-                    <section class="product-section">
-                        <img src="../assets/images/toy3.webp" class="product-img" alt="">
-                        <h3>JKL</h3>
-                        <h4 class="product-price">$39,99</h4>
-                        <button class="btn-buy">Buy Now</button>
-                        <button class="btn-add">Add to Cart</button>
-                    </section>
-                    <section class="product-section">
-                        <img src="../assets/images/toy5.webp" class="product-img" alt="">
-                        <h3>MNO</h3>
-                        <h4 class="product-price">$49,99</h4>
-                        <button class="btn-buy">Buy Now</button>
-                        <button class="btn-add">Add to Cart</button>
-                    </section>
-                    <section class="product-section">
-                        <img src="../assets/images/toy6.webp" class="product-img" alt="">
-                        <h3>PQRSTUV</h3>
-                        <h4 class="product-price">$9,99</h4>
-                        <button class="btn-buy">Buy Now</button>
-                        <button class="btn-add">Add to Cart</button>
-                    </section>
-                </article>
-            </div>                
-        </main>
-        <footer>
-            <h2>Find us at:</h2>
-            <ul>
-                <li><a id="facebook-footer" href="#">Facebook</a></li>
-                <li><a id="instagram-footer" href="#">Instagram</a></li>
-                <li><a id="google-footer" href="#">Google</a></li>
-            </ul>
-            <small>Clínica PetVida &copy;</small>
-
-        </footer>
-
-    </div>    
+<section class="page-hero"><div class="wrap"><span class="eyebrow">Shop</span><h1>For dogs</h1><p class="lead">Food and toys our vets actually recommend, from puppies to seniors.</p><div><span class="cart-pill btn btn-ghost btn-sm" hidden><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg> Cart <span class="cart-count">0</span></span><span id="cart-live" class="visually-hidden" aria-live="polite"></span></div></div></section>
+<section class="sec" style="padding-top:24px" aria-labelledby="food-title"><div class="wrap"><div class="sec-head"><h2 id="food-title">Food</h2></div><ul class="grid grid-3"><li class="card product"><img src="../assets/images/dog7.webp" alt="" width="1024" height="1024" loading="lazy"><div class="product-body"><h3>Royal Vida Adult 15 kg</h3><span class="muted">Chicken and rice, medium breeds</span><div class="product-row"><span class="price">R$ 289,90</span><button class="btn btn-ghost btn-sm" type="button" data-add-to-cart="Royal Vida Adult 15 kg">Add to cart</button></div></div></li><li class="card product"><img src="../assets/images/dog2.webp" alt="" width="1024" height="1024" loading="lazy"><div class="product-body"><h3>Royal Vida Puppy 10 kg</h3><span class="muted">Growth formula, DHA</span><div class="product-row"><span class="price">R$ 219,90</span><button class="btn btn-ghost btn-sm" type="button" data-add-to-cart="Royal Vida Puppy 10 kg">Add to cart</button></div></div></li><li class="card product"><img src="../assets/images/dog4.webp" alt="" width="1024" height="1024" loading="lazy"><div class="product-body"><h3>Vida Light 12 kg</h3><span class="muted">Weight control, L-carnitine</span><div class="product-row"><span class="price">R$ 249,90</span><button class="btn btn-ghost btn-sm" type="button" data-add-to-cart="Vida Light 12 kg">Add to cart</button></div></div></li><li class="card product"><img src="../assets/images/dog1.webp" alt="" width="1024" height="1024" loading="lazy"><div class="product-body"><h3>Vida Senior 10 kg</h3><span class="muted">Joint support, 7+ years</span><div class="product-row"><span class="price">R$ 239,90</span><button class="btn btn-ghost btn-sm" type="button" data-add-to-cart="Vida Senior 10 kg">Add to cart</button></div></div></li><li class="card product"><img src="../assets/images/dog5.webp" alt="" width="1024" height="1024" loading="lazy"><div class="product-body"><h3>Vida Grain-Free 10 kg</h3><span class="muted">Lamb and sweet potato</span><div class="product-row"><span class="price">R$ 299,90</span><button class="btn btn-ghost btn-sm" type="button" data-add-to-cart="Vida Grain-Free 10 kg">Add to cart</button></div></div></li><li class="card product"><img src="../assets/images/dog6.webp" alt="" width="1024" height="1024" loading="lazy"><div class="product-body"><h3>Vida Mini 3 kg</h3><span class="muted">Small breeds, small kibble</span><div class="product-row"><span class="price">R$ 89,90</span><button class="btn btn-ghost btn-sm" type="button" data-add-to-cart="Vida Mini 3 kg">Add to cart</button></div></div></li></ul></div></section>
+<section class="sec sec-soft" aria-labelledby="toys-title"><div class="wrap"><div class="sec-head"><h2 id="toys-title">Toys and gear</h2></div><ul class="grid grid-3"><li class="card product"><img src="../assets/images/toy4.webp" alt="" width="1024" height="1024" loading="lazy"><div class="product-body"><h3>Plush owl</h3><span class="muted">Squeaker inside, double-stitched</span><div class="product-row"><span class="price">R$ 39,90</span><button class="btn btn-ghost btn-sm" type="button" data-add-to-cart="Plush owl">Add to cart</button></div></div></li><li class="card product"><img src="../assets/images/toy1.webp" alt="" width="1024" height="1024" loading="lazy"><div class="product-body"><h3>Plush crocodile</h3><span class="muted">Long body for tug games</span><div class="product-row"><span class="price">R$ 44,90</span><button class="btn btn-ghost btn-sm" type="button" data-add-to-cart="Plush crocodile">Add to cart</button></div></div></li><li class="card product"><img src="../assets/images/toy2.webp" alt="" width="1024" height="1024" loading="lazy"><div class="product-body"><h3>Plush lamb</h3><span class="muted">Soft, for gentle chewers</span><div class="product-row"><span class="price">R$ 34,90</span><button class="btn btn-ghost btn-sm" type="button" data-add-to-cart="Plush lamb">Add to cart</button></div></div></li><li class="card product"><img src="../assets/images/toy3.webp" alt="" width="1024" height="1024" loading="lazy"><div class="product-body"><h3>Squeaky sheep</h3><span class="muted">Vinyl, easy to clean</span><div class="product-row"><span class="price">R$ 24,90</span><button class="btn btn-ghost btn-sm" type="button" data-add-to-cart="Squeaky sheep">Add to cart</button></div></div></li><li class="card product"><img src="../assets/images/toy5.webp" alt="" width="1024" height="1024" loading="lazy"><div class="product-body"><h3>Rubber duck</h3><span class="muted">Floats, bath-time classic</span><div class="product-row"><span class="price">R$ 19,90</span><button class="btn btn-ghost btn-sm" type="button" data-add-to-cart="Rubber duck">Add to cart</button></div></div></li><li class="card product"><img src="../assets/images/toy6.webp" alt="" width="1024" height="1024" loading="lazy"><div class="product-body"><h3>Tennis ball, 3-pack</h3><span class="muted">Felt-free, gentle on teeth</span><div class="product-row"><span class="price">R$ 29,90</span><button class="btn btn-ghost btn-sm" type="button" data-add-to-cart="Tennis ball, 3-pack">Add to cart</button></div></div></li></ul></div></section>
+<section class="sec"><div class="wrap"><p class="form-note">Demo shop: the cart counts items but nothing is charged. Prices in BRL.</p></div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="../index.html"><span class="brand-mark"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="#fff"><circle cx="5.5" cy="9" r="2.2"/><circle cx="9.5" cy="5" r="2.2"/><circle cx="14.5" cy="5" r="2.2"/><circle cx="18.5" cy="9" r="2.2"/><path d="M12 10c-3 0-6.5 3.2-6.5 6.3 0 1.9 1.4 3.2 3.2 3.2 1.3 0 2.1-.6 3.3-.6s2 .6 3.3.6c1.8 0 3.2-1.3 3.2-3.2C18.5 13.2 15 10 12 10z"/></svg></span>Pet Vida</a>
+        <p>Veterinary clinic in Salvador, Bahia. Prevention, diagnosis and treatment for dogs and cats, with an in-house lab and a 24/7 emergency line.</p>
+        <div class="social">
+          <a href="https://www.instagram.com/" aria-label="Pet Vida on Instagram"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="https://www.facebook.com/" aria-label="Pet Vida on Facebook"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="https://wa.me/5571999994040" aria-label="Pet Vida on WhatsApp"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.7-4.9A9 9 0 1 1 8 19.4z"/><path d="M9 10c.3 1.5 1.5 3 3 3.8l1-1c.3-.3.7-.3 1-.1l1.5.8c.4.2.5.6.3 1-.4.9-1.4 1.6-2.4 1.4A8 8 0 0 1 7.9 10c-.1-1 .5-2 1.4-2.4.4-.2.8 0 1 .3l.8 1.5c.2.3.1.7-.1 1z"/></svg></a>
+        </div>
+      </div>
+      <div><h3>Clinic</h3><ul><li><a href="../page-services/">Services</a></li><li><a href="../page-about/">About and team</a></li><li><a href="../page-partners/">Loyalty plans</a></li><li><a href="../page-contact/">Book a visit</a></li></ul></div>
+      <div><h3>Shop</h3><ul><li><a href="../page-dogs/">For dogs</a></li><li><a href="../page-cats/">For cats</a></li></ul></div>
+      <div><h3>Visit</h3><ul><li>Rua da Graça, 120<br>Graça, Salvador – BA</li><li><a href="tel:+557133334040">(71) 3333-4040</a></li><li>Mon–Fri 8am–7pm<br>Sat 8am–2pm</li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Clínica Pet Vida. Portfolio project with fictional data.</span>
+      <span>Designed and built by <a href="https://github.com/joaoferrari12">Joao Victor Ferrari</a></span>
+    </div>
+  </div>
+</footer>
+<script src="../assets/scripts/main.js"></script>
 </body>
 </html>
